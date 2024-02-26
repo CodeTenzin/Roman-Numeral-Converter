@@ -69,6 +69,10 @@ button:hover {
   padding: 15px;
 }
 
+.error {
+  background: red;
+}
+
 /* #div-output {
   border: 2px solid #f5f6f7;
   border-radius: 10px;
