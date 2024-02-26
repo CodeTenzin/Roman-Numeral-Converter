@@ -1,8 +1,10 @@
 const convertBtn = document.getElementById("convert-btn");
 const input = document.getElementById("number");
 const output = document.getElementById("output");
+output.style.display = "none";
 
 const inputHandler = () => {
+  output.style.display = "block";
   let num = Number(input.value);
 
   if (input.value === "") {
