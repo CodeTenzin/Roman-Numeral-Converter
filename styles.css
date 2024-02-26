@@ -60,7 +60,16 @@ button:hover {
   color: darkgray;
 }
 
-#div-output {
+#output {
+  border: 2px solid #f5f6f7;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bolder;
+  padding: 15px;
+}
+
+/* #div-output {
   border: 2px solid #f5f6f7;
   border-radius: 10px;
   text-align: center;
@@ -70,4 +79,4 @@ button:hover {
 
 #output:hover {
   transform: scale(1.5);
-}
+} */
