@@ -1,1 +1,73 @@
-/* https://roman-numeral-converter.freecodecamp.rocks/ */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 100px auto;
+  max-width: 450px;
+  background: #1b1b32;
+  color: #f5f6f7;
+  font-size: 62.5%;
+}
+
+.container {
+  font-size: 1.6rem;
+}
+
+header,
+label {
+  text-align: center;
+}
+
+main {
+  border: 2px solid #f5f6f7;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+label,
+input {
+  margin-bottom: 20px;
+}
+
+input,
+button {
+  padding: 5px 10px;
+}
+
+label,
+input,
+button {
+  display: block;
+}
+
+input,
+button {
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+  color: #f5f6f7;
+  background: darkgray;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+}
+
+button:hover {
+  background: #f5f6f7;
+  color: darkgray;
+}
+
+#div-output {
+  border: 2px solid #f5f6f7;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bolder;
+}
+
+#output:hover {
+  transform: scale(1.5);
+}
